@@ -72,12 +72,10 @@ This project analyzes a books dataset collected through web scraping. The goal i
 <br>
 5. Data Visualization:
 
-<br>
 • Interactive Power BI dashboard
 <br>
 6. Presentation:
 
-<br>
 • Insights summarized in PPT
 
 <h3>📊 Key KPIs</h3>
