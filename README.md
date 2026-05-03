@@ -61,7 +61,8 @@ This project analyzes a books dataset collected through web scraping. The goal i
 3.Performing EDA
 
 <br>
-• Finding correlation between price, rating, category  
+• Finding correlation between price, rating, category 
+<br>
 4. SQL Analysis:
 
 • Category-wise distribution
