@@ -5,7 +5,7 @@ This project analyzes a books dataset collected through web scraping. The goal i
 
 • Data collection (Web Scraping)
 <br>
-• Data cleaning & preprocessing (Python)
+• Data cleaning, preprocessing & EDA(Python)
 <br>
 • Data analysis (SQL)
 <br>
@@ -14,7 +14,7 @@ This project analyzes a books dataset collected through web scraping. The goal i
 • Presentation (PPT)
 
 <h3>🎯 Problem Statement</h3>
-<br>
+
 • Analyze book dataset to understand pricing, ratings, and category trends
 <br>
 • Identify relationships between price and rating
@@ -23,8 +23,8 @@ This project analyzes a books dataset collected through web scraping. The goal i
 
 <h3>📂 Dataset Information</h3>
 • Total Records: 1024 books
-<h5>Features:</h5>
-<br>
+<h4>Features:</h4>
+
 • Title
 <br>
 • Category
@@ -34,8 +34,8 @@ This project analyzes a books dataset collected through web scraping. The goal i
 • Rating
 
 <h3>🛠️ Tools & Technologies</h3>
-<br>
-• Python (Pandas, NumPy, BeautifulSoup) – Data Cleaning & Web Scraping
+
+• Python (Pandas, NumPy, BeautifulSoup, matplotlib, seaboarn) – Data Cleaning, EDA & Web Scraping
 <br>
 • SQL – Data Analysis & Insights
 <br>
@@ -57,7 +57,11 @@ This project analyzes a books dataset collected through web scraping. The goal i
 <br>
 • Standardized category names
 <br>
-3. SQL Analysis:
+3.Performing EDA
+<br>
+• Finding correlation between price, rating, category.  
+
+4. SQL Analysis:
 <br>
 • Category-wise distribution
 <br>
@@ -65,11 +69,11 @@ This project analyzes a books dataset collected through web scraping. The goal i
 <br>
 • Revenue insights
 <br>
-4. Data Visualization:
+5. Data Visualization:
 <br>
 • Interactive Power BI dashboard
 <br>
-5. Presentation:
+6. Presentation:
 <br>
 • Insights summarized in PPT
 
