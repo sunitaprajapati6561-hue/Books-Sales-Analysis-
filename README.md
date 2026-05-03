@@ -131,7 +131,7 @@ This project analyzes a books dataset collected through web scraping. The goal i
 <br>
 • Presentation PPT → Final Insights
 <h3>🚀 How to Run</h3>
-
+<br>
 1. Run Python notebook for data cleaning
 <br>
 2. Execute SQL queries for insights
