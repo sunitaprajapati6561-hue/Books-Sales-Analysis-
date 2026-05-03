@@ -127,9 +127,9 @@ This project analyzes a books dataset collected through web scraping. The goal i
 <br>
 • SQL Insight.sql → SQL Queries
 <br>
-• Power BI Dashboard.pdf → Dashboard
+• Power BI Dashboard → Dashboard
 <br>
-• Presentation PPT.pdf → Final Insights
+• Presentation PPT → Final Insights
 <h3>🚀 How to Run</h3>
 
 1. Run Python notebook for data cleaning
