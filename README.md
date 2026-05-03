@@ -109,13 +109,13 @@ This project analyzes a books dataset collected through web scraping. The goal i
 
 <h5>The Power BI dashboard provides:</h5>
 
-• Category-wise book distribution
+• Avg Rating vs Price by Category distribution 
 <br>
-• Price vs Rating analysis
+• Average rating vs Category analysis
 <br>
 • Revenue distribution by rating
 <br>
-• Average price & rating comparison
+• Average price & category comparison
 <br>
 <img width="660" height="376" alt="Screenshot 2026-05-03 160410" src="https://github.com/user-attachments/assets/7fec17e1-c5fb-4cba-954d-a980b95b296e" />
 
