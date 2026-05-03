@@ -48,6 +48,7 @@ This project analyzes a books dataset collected through web scraping. The goal i
 1. Web Scraping books dataset using Python
 <br>
 2. Data Cleaning:
+
 <br>
 • Removed missing values
 <br>
@@ -58,6 +59,7 @@ This project analyzes a books dataset collected through web scraping. The goal i
 • Standardized category names
 <br>
 3.Performing EDA
+
 <br>
 • Finding correlation between price, rating, category.  
 
@@ -70,10 +72,12 @@ This project analyzes a books dataset collected through web scraping. The goal i
 • Revenue insights
 <br>
 5. Data Visualization:
+
 <br>
 • Interactive Power BI dashboard
 <br>
 6. Presentation:
+
 <br>
 • Insights summarized in PPT
 
