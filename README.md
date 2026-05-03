@@ -62,7 +62,7 @@ This project analyzes a books dataset collected through web scraping. The goal i
 • Finding correlation between price, rating, category.  
 
 4. SQL Analysis:
-<br>
+
 • Category-wise distribution
 <br>
 • Price & rating analysis
@@ -78,7 +78,7 @@ This project analyzes a books dataset collected through web scraping. The goal i
 • Insights summarized in PPT
 
 <h3>📊 Key KPIs</h3>
-<br>
+
 • Total Books: 1,024
 <br>
 • Average Price: €35.1
@@ -86,7 +86,7 @@ This project analyzes a books dataset collected through web scraping. The goal i
 • Average Rating: 2.92
 
 <h3>🔍 Key Insights</h3>
-<br>
+
 • Most books fall between rating 2.5 – 3.5
 <br>
 • No strong relationship between price and rating
@@ -106,7 +106,7 @@ This project analyzes a books dataset collected through web scraping. The goal i
 <h3>📈 Dashboard</h3>
 
 <h5>The Power BI dashboard provides:</h5>
-<br>
+
 • Category-wise book distribution
 <br>
 • Price vs Rating analysis
@@ -118,7 +118,7 @@ This project analyzes a books dataset collected through web scraping. The goal i
 <img width="660" height="376" alt="Screenshot 2026-05-03 160410" src="https://github.com/user-attachments/assets/7fec17e1-c5fb-4cba-954d-a980b95b296e" />
 
 <h3>📁 Files Included</h3>
-<br>
+
 • Web Scraping books dataset.ipynb → Data Collection
 <br>
 • Data Cleaning & EDA.ipynb → Data Cleaning
@@ -129,7 +129,7 @@ This project analyzes a books dataset collected through web scraping. The goal i
 <br>
 • Presentation PPT.pdf → Final Insights
 <h3>🚀 How to Run</h3>
-<br>
+
 1. Run Python notebook for data cleaning
 <br>
 2. Execute SQL queries for insights
