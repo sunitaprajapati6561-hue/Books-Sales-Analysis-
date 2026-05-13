@@ -1,147 +1,178 @@
-<h1>Overview</h1>
-This project analyzes a books dataset collected through web scraping. The goal is to understand pricing patterns, rating distribution, and category performance using Python, SQL, and Power BI.
+# 📚 Books Sales Analysis
+## 🚀 End-to-End Data Analysis Project (Web Scraping → Python → SQL → Power BI)
 
-<h3>The project follows a complete data analysis pipeline:</h3>
+---
 
-• Data collection (Web Scraping)
-<br>
-• Data cleaning, preprocessing & EDA(Python)
-<br>
-• Data analysis (SQL)
-<br>
-• Data visualization (Power BI)
-<br>
-• Presentation (PPT)
+## 📖 Project Overview
 
-<h3>🎯 Problem Statement</h3>
+This project delivers a complete analysis of a books dataset collected through **web scraping**.
+The goal is to uncover pricing patterns, rating distribution, and category performance across **1,024 books**.
 
-• Analyze book dataset to understand pricing, ratings, and category trends
-<br>
-• Identify relationships between price and rating
-<br>
-• Find top-performing categories
+The project follows a complete real-world data workflow:
 
-<h3>📂 Dataset Information</h3>
-• Total Records: 1024 books
-<h4>Features:</h4>
+- 🕸️ **Data Collection** — Web Scraping using Python (BeautifulSoup)
+- 🧹 **Data Cleaning & EDA** — Python (Pandas, NumPy, Matplotlib, Seaborn)
+- 🗄️ **Data Analysis** — SQL Queries
+- 📊 **Data Visualization** — Interactive Power BI Dashboard
+- 📑 **Presentation** — Insights summarized in PPT
 
-• Title
-<br>
-• Category
-<br>
-• Price (€)
-<br>
-• Rating
+💡 The goal is to transform raw web data into actionable business insights about the book market.
 
-<h3>🛠️ Tools & Technologies</h3>
+---
 
-• Python (Pandas, NumPy, BeautifulSoup, matplotlib, seaboarn) – Data Cleaning, EDA & Web Scraping
-<br>
-• SQL – Data Analysis & Insights
-<br>
-• Power BI – Dashboard & Visualization
-<br>
-• Excel – (optional usage)
+## 🎯 Problem Statement
 
-<h3>🔄 Project Workflow</h3>
-<br>
-1. Web Scraping books dataset using Python
-<br>
-2. Data Cleaning:
+- Analyze the books dataset to understand pricing, ratings, and category trends
+- Identify relationships between price and rating
+- Find top-performing categories and underperforming segments
+- Provide data-driven recommendations for business decisions
 
-<br>
-• Removed missing values
-<br>
-• Fixed data types
-<br>
-• Removed duplicates
-<br>
-• Standardized category names
-<br>
-3.Performing EDA
+---
 
-<br>
-• Finding correlation between price, rating, category 
-<br>
-4. SQL Analysis:
+## 📂 Dataset Information
 
-• Category-wise distribution
-<br>
-• Price & rating analysis
-<br>
-• Revenue insights
-<br>
-5. Data Visualization:
+| Feature | Details |
+| --------- | ------------------- |
+| 📁 Source | Web Scraped Dataset |
+| 📌 Records | 1,024 Books |
+| 📌 Features | Title, Category, Price (€), Rating |
 
-• Interactive Power BI dashboard
-<br>
-6. Presentation:
+---
 
-• Insights summarized in PPT
+## 🛠️ Tech Stack
 
-<h3>📊 Key KPIs</h3>
+| Tool | Purpose |
+| -------------------- | ----------------------------------------- |
+| Python | Data Cleaning, EDA & Web Scraping |
+| Pandas | Data Manipulation |
+| NumPy | Numerical Operations |
+| BeautifulSoup | Web Scraping |
+| Matplotlib & Seaborn | Data Visualization |
+| SQL | Data Analysis & Insights |
+| Power BI | Interactive Dashboard & Visualization |
 
-• Total Books: 1,024
-<br>
-• Average Price: €35.1
-<br>
-• Average Rating: 2.92
+---
 
-<h3>🔍 Key Insights</h3>
+## 🔄 Project Workflow
 
-• Most books fall between rating 2.5 – 3.5
-<br>
-• No strong relationship between price and rating
-<br>
-• Categories like Novels & Erotica have higher ratings
-<br>
-• Health category shows lower ratings
-<br>
-• Fiction category dominates in number of books
-<br>
-• Some categories have very few books (uneven distribution)
-<br>
-• Pricing varies significantly across categories
-<br>
-• Rating distribution is fairly balanced
+**1. Web Scraping**
+- Scraped books dataset using Python (BeautifulSoup)
+- Collected Title, Category, Price, and Rating for 1,024 books
 
-<h3>📈 Dashboard</h3>
+**2. Data Cleaning**
+- Removed missing values and duplicates
+- Fixed data types for price and rating columns
+- Standardized category names for consistency
 
-<h5>The Power BI dashboard provides:</h5>
+**3. Exploratory Data Analysis (EDA)**
+- Analyzed correlation between price, rating, and category
+- Visualized distributions using histograms and heatmaps
 
-• Avg Rating vs Price by Category distribution 
-<br>
-• Average rating vs Category analysis
-<br>
-• Revenue distribution by rating
-<br>
-• Average price & category comparison
-<br>
-<img width="660" height="376" alt="Screenshot 2026-05-03 160410" src="https://github.com/user-attachments/assets/7fec17e1-c5fb-4cba-954d-a980b95b296e" />
+**4. SQL Analysis**
+- Category-wise book distribution
+- Price and rating analysis per category
+- Revenue insights and top-performing segments
 
-<h3>📁 Files Included</h3>
+**5. Data Visualization**
+- Built an interactive Power BI dashboard with filters and drill-downs
 
-• Web Scraping books dataset.ipynb → Data Collection
-<br>
-• Data Cleaning & EDA.ipynb → Data Cleaning
-<br>
-• SQL Insight.sql → SQL Queries
-<br>
-• Power BI Dashboard → Dashboard
-<br>
-• Presentation PPT → Final Insights
-<h3>🚀 How to Run</h3>
-<br>
-1. Run Python notebook for data cleaning
-<br>
-2. Execute SQL queries for insights
-<br>
-3. Open Power BI dashboard file
-<br>
-4. Review PPT for final insights
+**6. Presentation**
+- Key insights summarized in a PowerPoint presentation
 
-<h3>👤 Author</h3>
+---
 
-Vikas Prajapati
-<br>
-link = (https://github.com/sunitaprajapati6561-hue/Books-Sales-Analysis-)
+## 📊 Key KPIs
+
+| Metric | Value |
+| --------------- | ------- |
+| 📚 Total Books | 1,024 |
+| 💰 Average Price | €35.10 |
+| ⭐ Average Rating | 2.92 |
+
+---
+
+## 🔍 Key Insights
+
+### 📈 Pricing & Rating Trends
+- Most books fall in the **2.5 – 3.5 rating range**
+- **No strong correlation** found between price and rating
+- Pricing varies significantly across categories
+
+### 🏆 Category Performance
+- **Fiction** dominates in total number of books
+- **Novels & Erotica** categories show higher average ratings
+- **Health** category shows comparatively lower ratings
+- Some categories have very few books (uneven distribution)
+
+### 💰 Revenue Insights
+- Pricing is not driven by ratings — other factors influence book pricing
+- High-priced categories do not necessarily have high ratings
+
+---
+
+## 📈 Dashboard Features
+
+The Power BI dashboard provides:
+
+- 📊 **Average Rating vs Price** — Category-level distribution
+- 🏷️ **Category Analysis** — Average rating comparison across all categories
+- 💰 **Revenue Distribution** — Breakdown by rating group
+- 📦 **Price & Category Comparison** — Avg price trends per category
+
+---
+
+## 📁 Project Structure
+
+```
+📦 Books-Sales-Analysis
+ ┣ 📜 Web Scraping books dataset.ipynb   → Data Collection
+ ┣ 📜 Data Cleaning & EDA.ipynb          → Cleaning & Analysis
+ ┣ 📜 SQL Insight.sql                    → SQL Queries
+ ┣ 📊 Power BI Dashboard.pbix            → Interactive Dashboard
+ ┣ 📊 Presentation.pptx                  → Final Insights
+ ┗ 📄 README.md
+```
+
+---
+
+## 🚀 How to Run
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/sunitaprajapati6561-hue/Books-Sales-Analysis
+
+# 2. Install dependencies
+pip install pandas numpy matplotlib seaborn beautifulsoup4 requests
+
+# 3. Run the web scraping notebook
+jupyter notebook "Web Scraping books dataset.ipynb"
+
+# 4. Run data cleaning & EDA
+jupyter notebook "Data Cleaning & EDA.ipynb"
+
+# 5. Execute SQL queries in your SQL client
+# Open SQL Insight.sql
+
+# 6. Open Power BI Dashboard
+# Open Power BI Dashboard.pbix in Power BI Desktop
+```
+
+---
+
+## 🧠 Key Learnings
+
+- Web scraping is a powerful way to collect real-world datasets
+- Price alone does not determine book quality or customer ratings
+- EDA helps uncover hidden patterns in category and pricing data
+- SQL is effective for slicing and analyzing structured datasets
+- Visualization in Power BI makes insights accessible to non-technical stakeholders
+
+---
+
+## 👤 Author
+
+**Vikas Prajapati**
+📌 Aspiring Data Analyst
+📌 Python | SQL | Power BI | Excel
+
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/sunitaprajapati6561-hue)
