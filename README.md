@@ -119,6 +119,8 @@ The Power BI dashboard provides:
 - 💰 **Revenue Distribution** — Breakdown by rating group
 - 📦 **Price & Category Comparison** — Avg price trends per category
 
+-<img width="610" height="355" alt="Screenshot 2026-05-13 181845" src="https://github.com/user-attachments/assets/2c5fa47b-e9c4-4836-b192-aad92881c25a" />
+
 ---
 
 ## 📁 Project Structure
